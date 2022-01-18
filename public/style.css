@@ -144,7 +144,7 @@ html, body {
 
 .firstSection {
     padding: 0;
-    background: #fff;
+    background: #f8f8f8;
     background-image: url("./img/bg.svg");
     background-size: cover;
     height: 100vh;
@@ -213,6 +213,9 @@ html, body {
 
 .terrain {
     position: relative;
+    background-image: url("./img/producteurs.jpg");
+    background-size: cover;
+    height: 400px;
 }
 
 .terrain h2, .terrain h4 {
