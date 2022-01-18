@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'lato';
+    src: url('./fonts/lato/lato-regular-webfont.woff') format('woff');
+    src: url('./fonts/lato/lato-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato bold';
+    src: url('./fonts/lato/lato-bold-webfont.woff') format('woff');
+    src: url('./fonts/lato/lato-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato light';
+    src: url('./fonts/lato/lato-light-webfont.woff') format('woff');
+    src: url('./fonts/lato/lato-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --darkGreen: #014C23;
+    --green: #00AD4B;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header, .nav {
+    margin: 0;
+}
+
+.header {
+    position: initial;
+    width: 100vw;
+}
+
+.header .nav {
+    padding: 20px;
+}
+
+.header .nav ul, .header .nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header .nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.header .nav li {
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.section {
+    height: 20vh;
+    background: var(--green);
+    width: 100vw;
+}
+
+.section .row {
+    width: 85%;
+    margin: auto;
+}
+
+.footer {
+    width: 100vw;
+    background: #333;
+    color: #fff;
+}
+
+.footer .row {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
