@@ -63,6 +63,9 @@ html, body {
     width: 60%;
 }
 
+.w55 {
+    width: 55%;
+}
 .w50 {
     width: 50%;
 }
@@ -208,6 +211,50 @@ html, body {
     line-height: 1.6em;
 }
 
+.terrain {
+    position: relative;
+}
+
+.terrain h2, .terrain h4 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 46px;
+    color: #fff;
+    font-family: 'lato bold', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.terrain h4 {
+    top: 230px;
+    font-size: 16px;
+    font-family: 'lato light', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.terrain .button {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.terrain .button:hover {
+    background: rgba(100, 100, 100, 0.5);
+}
+
+/* FOOTER */
 .footer {
     width: 100%;
     background: #333;
