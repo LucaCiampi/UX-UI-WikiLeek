@@ -45,7 +45,9 @@ html, body {
 }
 
 .header .nav {
-    padding: 20px;
+    padding: 10px 0;
+    width: 95%;
+    margin: auto;
 }
 
 .header .nav ul, .header .nav ul li {
@@ -64,6 +66,10 @@ html, body {
 .header .nav li {
     margin-right: 2em;
     cursor: pointer;
+}
+
+.content {
+    min-height: 70vh;
 }
 
 .section {
@@ -88,4 +94,12 @@ html, body {
     padding-top: 20px;
     padding-bottom: 20px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .column {
+    width: 30%;
+    text-align: center;
+    padding: 2%;
 }
