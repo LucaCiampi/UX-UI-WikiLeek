@@ -51,6 +51,7 @@ a {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .space-between {
@@ -163,6 +164,10 @@ a {
     width: 100vw;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.row {
+    flex-wrap: wrap;
 }
 
 .section .row {
@@ -530,4 +535,33 @@ a {
 
 .footer-termsAndConditions {
     margin-right: 1em;
+}
+
+@media screen and (max-width: 980px) {
+    .firstSection-leftColumn, .firstSection-mockup {
+        width: 100%;
+    }
+
+    .row.flex > * {
+        width: 100%;
+    }
+
+    .section {
+        overflow: hidden;
+    }
+
+    .nav-logo {
+        left: unset;
+        right: 20px;
+        top: 20px;
+    }
+
+    .footer .column {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cta-leftColumn, .cta-mockup {
+        width: 100%;
+    }
 }
