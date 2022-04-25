@@ -297,6 +297,10 @@ html, body {
     right: 20px;
 }
 
+.section.firstSection {
+    z-index: 2;
+}
+
 .accordion {
     margin-bottom: 20px;
 }
@@ -328,6 +332,7 @@ html, body {
 
 .section.cta {
     background: #f8f8f8;
+    overflow: hidden;
 }
 
 .cta-leftColumn {
@@ -356,14 +361,27 @@ html, body {
 .cta-mockup {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: center;;
+}
+
+.cta-mockup-background {
+    background-color: rgba(1, 76, 35, 0.1);
+    height: 45vw;
+    width: 45vw;
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 0;
 }
 
 .cta-mockup-img {
-    height: 200%;
+    height: 130%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 1;
 }
 
 .cta-leftColumn-getIt {
