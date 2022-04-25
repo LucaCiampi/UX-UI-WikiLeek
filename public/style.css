@@ -385,6 +385,7 @@ html, body {
     width: 100%;
     background: #333;
     color: #fff;
+    background-color: #014C23;
 }
 
 .footer .row {
@@ -400,4 +401,25 @@ html, body {
     width: 30%;
     text-align: center;
     padding: 2%;
+}
+
+.separator{
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: grey;
+}
+
+.footer .row:last-child{
+    justify-content: space-between;
+}
+
+.socialMedias{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.socialMedias img{
+    width: 30px;
 }
