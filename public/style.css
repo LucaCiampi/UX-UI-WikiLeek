@@ -455,3 +455,14 @@ html, body {
 .socialMedias img{
     width: 30px;
 }
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    color: grey;
+}
