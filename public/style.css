@@ -43,8 +43,17 @@ html, body {
     font-family: 'lato light', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .flex {
     display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .w100 {
@@ -495,4 +504,8 @@ html, body {
 
 .socialMedias-img {
     width: 100%;
+}
+
+.footer-termsAndConditions {
+    margin-right: 1em;
 }
