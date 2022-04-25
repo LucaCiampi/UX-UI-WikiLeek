@@ -312,6 +312,8 @@ html, body {
     padding: 14px 26px;
     font-family: 'lato bold', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
+    user-select: none;
+    cursor: pointer;
 }
 
 .accordion-title::after {
