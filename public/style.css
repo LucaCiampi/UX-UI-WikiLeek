@@ -472,7 +472,7 @@ a {
 .subscribeNewsletter-textInput {
     background: none;
     border-width: 0 0 1px 0;
-    border-color: #979797;
+    border-color: rgba(151, 151, 151, 0.1);
     height: 100%;
     padding: 8px 10px;
     margin-right: 0;
