@@ -417,7 +417,7 @@ html, body {
     width: 100%;
     background: #333;
     color: #fff;
-    background-color: #014C23;
+    background-color: var(--darkGreen);
 }
 
 .footer .row {
@@ -439,7 +439,7 @@ html, body {
     width: 90%;
     height: 1px;
     margin: auto;
-    background-color: grey;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer .row:last-child{
@@ -481,7 +481,24 @@ html, body {
     justify-content: space-between;
     align-content: center;
 }
+<<<<<<< HEAD
 
 .socialMedias-img {
     width: 100%;
+=======
+.socialMedias img{
+    width: 30px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    margin: 0;
+    opacity: 0.5;
+>>>>>>> 791797ea26acfa532c520d55f1fb40fd1962bc34
 }
