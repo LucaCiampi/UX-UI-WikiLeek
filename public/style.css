@@ -446,12 +446,42 @@ html, body {
     justify-content: space-between;
 }
 
+.subscribeNewsletter {
+    width: 100%;
+}
+
+.subscribeNewsletter-textInput {
+    background: none;
+    border-width: 0 0 1px 0;
+    border-color: #979797;
+    height: 100%;
+    padding: 8px 10px;
+    margin-right: 0;
+}
+
+.subscribeNewsletter-textInput::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.subscribeNewsletter-submitButton {
+    border: none;
+    color: #F3F3F3;
+    border-radius: 2px 2px 0 0;
+}
+
+.subscribeNewsletter-submitButton {
+    color: #014C23;
+    padding: 8px 10px;
+}
+
 .socialMedias{
     width: 120px;
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
-.socialMedias img{
-    width: 30px;
+
+.socialMedias-img {
+    width: 100%;
 }
